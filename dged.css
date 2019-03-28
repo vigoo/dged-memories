@@ -1,0 +1,7 @@
+
+p            { font-family: Verdana; font-size: 10pt; text-align: justify; margin-left: 16; 
+               margin-right: 16; margin-bottom: 6 }
+.ListSelection { font-family: Verdana; font-size: 10pt; font-weight: bold; text-align: left; 
+               text-indent: 0; word-spacing: 0; line-height: 100%; margin: 0 }
+.ListItem    { font-family: Verdana; font-size: 10pt; text-align: left; text-indent: 0; 
+               word-spacing: 0; line-height: 100%; margin: 0 }
