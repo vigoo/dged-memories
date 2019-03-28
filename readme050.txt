@@ -1,41 +1,41 @@
 DGed 0.50.9521 publikus beta
 ----------------------------
 
-A DGed össze van kapcsolva a mini-htvel, ezt lehet használni a pályák kipróbálásához.
+A DGed Ã¶ssze van kapcsolva a mini-htvel, ezt lehet hasznÃ¡lni a pÃ¡lyÃ¡k kiprÃ³bÃ¡lÃ¡sÃ¡hoz.
 
 A DGed filejai:
 	
-	- DGed2.exe			- ez maga a DGed, azért "DGed2", mert második nekifutásra sikerült :)
-	- DarkGlance.dll	- ez a jólismert rulez engine, amit a ht is használ meg a DGed is
-	- Conv3DS.exe		- egy segédprogram amit a DGed használ a 3DS-bõl X-be konvertáláshoz
-	- Help\DGed.chm		- a DGed helpje, a Help-DGed tutorial... menüponttal is elérhetõ
-	- Help\MFCTex.exe	- egy kis directx példaprogram amivel ki tudjátok próbálni a multitexturing beállításokat
-	- Help\*.bmp		- az MFCTex-hez tartozó textúrák
+	- DGed2.exe			- ez maga a DGed, azÃ©rt "DGed2", mert mÃ¡sodik nekifutÃ¡sra sikerÃ¼lt :)
+	- DarkGlance.dll	- ez a jÃ³lismert rulez engine, amit a ht is hasznÃ¡l meg a DGed is
+	- Conv3DS.exe		- egy segÃ©dprogram amit a DGed hasznÃ¡l a 3DS-bÅ‘l X-be konvertÃ¡lÃ¡shoz
+	- Help\DGed.chm		- a DGed helpje, a Help-DGed tutorial... menÃ¼ponttal is elÃ©rhetÅ‘
+	- Help\MFCTex.exe	- egy kis directx pÃ©ldaprogram amivel ki tudjÃ¡tok prÃ³bÃ¡lni a multitexturing beÃ¡llÃ­tÃ¡sokat
+	- Help\*.bmp		- az MFCTex-hez tartozÃ³ textÃºrÃ¡k
 	- Dgldata\Languages\*.dged_us
-						- az engine által használt "language-file"-ok a DGed-hez. Nagyon fontos enélkül eléggé instabillá
-						  válik :)
+						- az engine Ã¡ltal hasznÃ¡lt "language-file"-ok a DGed-hez. Nagyon fontos enÃ©lkÃ¼l elÃ©ggÃ© instabillÃ¡
+						  vÃ¡lik :)
 
-Ismert/félig ismert hibák, tanácsok:
+Ismert/fÃ©lig ismert hibÃ¡k, tanÃ¡csok:
 
-	- Amíg nincs betöltve pálya, ne nyomj meg nagyon gombot és az egeret se a fehér terület felett vagy a jobbolali
-	  bar-on. A menü persze használható.
-	- Néhány funkció, amihez tartozik gomb, nem mûködik, pl nem lehet textúrát törölni (viszont csak azokat menti ki,
-	  amelyek tényleg használva is vannak), a detail map beállítás sem használ.
-	- Lehet, hogy a Walk módot nem tudod állítani a bar-ról, de billentyûzetrõl (Ctrl-4) és a menübõl mindig mûködik.
-	- Az alul található toolbar gombjai nem állnak vissza lenyomott helyzetbõl, és a nézõpont-válzotatás sem mûködik 
-	  (csak úgy tünik).
-	- Lehet hogy sok fény törlésénél lefagy (én nem tapasztaltam de b++ igen)
-	- A File/Close lefagy vagy kilép a DGed-bôl.
-	- Duplakattintással nem lehet megnyitni dgmap-okat, mert ilyenkor a DGed lefagy.
-	- A kamera "nyaka" néha elmozdul.
+	- AmÃ­g nincs betÃ¶ltve pÃ¡lya, ne nyomj meg nagyon gombot Ã©s az egeret se a fehÃ©r terÃ¼let felett vagy a jobbolali
+	  bar-on. A menÃ¼ persze hasznÃ¡lhatÃ³.
+	- NÃ©hÃ¡ny funkciÃ³, amihez tartozik gomb, nem mÅ±kÃ¶dik, pl nem lehet textÃºrÃ¡t tÃ¶rÃ¶lni (viszont csak azokat menti ki,
+	  amelyek tÃ©nyleg hasznÃ¡lva is vannak), a detail map beÃ¡llÃ­tÃ¡s sem hasznÃ¡l.
+	- Lehet, hogy a Walk mÃ³dot nem tudod Ã¡llÃ­tani a bar-rÃ³l, de billentyÅ±zetrÅ‘l (Ctrl-4) Ã©s a menÃ¼bÅ‘l mindig mÅ±kÃ¶dik.
+	- Az alul talÃ¡lhatÃ³ toolbar gombjai nem Ã¡llnak vissza lenyomott helyzetbÅ‘l, Ã©s a nÃ©zÅ‘pont-vÃ¡lzotatÃ¡s sem mÅ±kÃ¶dik 
+	  (csak Ãºgy tÃ¼nik).
+	- Lehet hogy sok fÃ©ny tÃ¶rlÃ©sÃ©nÃ©l lefagy (Ã©n nem tapasztaltam de b++ igen)
+	- A File/Close lefagy vagy kilÃ©p a DGed-bÃ´l.
+	- DuplakattintÃ¡ssal nem lehet megnyitni dgmap-okat, mert ilyenkor a DGed lefagy.
+	- A kamera "nyaka" nÃ©ha elmozdul.
 
-Ha valami nagy bugot találsz, akkor írjál nekem a vigoo@heaventourist.jatekok.hu-ra.
-Enginnel vagy 3DSMax-al kapcsolatos problémáidat NE NEKEM KÜLDD!!!
-Ha a bar designjével vannak problémáid akkor arról kid tehet.
+Ha valami nagy bugot talÃ¡lsz, akkor Ã­rjÃ¡l nekem a vigoo@heaventourist.jatekok.hu-ra.
+Enginnel vagy 3DSMax-al kapcsolatos problÃ©mÃ¡idat NE NEKEM KÃœLDD!!!
+Ha a bar designjÃ©vel vannak problÃ©mÃ¡id akkor arrÃ³l kid tehet.
 
-Amúgy thanx to 	bplusplus, mert övé az engine :)
-	   	kid, mert csinált szép bart, 
-		rev, mert segített több-oldalas-füles bar-t csinálni...
+AmÃºgy thanx to 	bplusplus, mert Ã¶vÃ© az engine :)
+	   	kid, mert csinÃ¡lt szÃ©p bart, 
+		rev, mert segÃ­tett tÃ¶bb-oldalas-fÃ¼les bar-t csinÃ¡lni...
 
 
 
